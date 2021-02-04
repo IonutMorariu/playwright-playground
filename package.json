@@ -4,7 +4,7 @@
   "description": "This is a small playwright environment with typescript. You can clone it and play around with the tool. In order to run it, you need to have [NodeJS](https://nodejs.org/es/download/) installed.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/automate.ts",
+    "start": "nodemon src/index.ts",
     "build": "tsc --project tsconfig.json",
     "test": "jest"
   },
